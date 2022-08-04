@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
    handleclick() {
-    fetch("https:api.quotable.io/random")
+    fetch("https://api.quotable.io/random")
     .then(res => res.json())
     .then(
       (result) => {
